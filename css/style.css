@@ -288,6 +288,79 @@ section a {
   text-decoration: underline;
 }
 
+.wrapper {
+  width: 900px;
+  margin:0 auto;
+}
+
+
+.col-1 {
+ float: left;
+  width: 49%;
+  
+}
+
+.col-2 {
+  float: right;
+  width: 49%;
+  margin-bottom: 50px;
+  
+}
+
+
+
+.col-3{
+  float: left;
+  width: 31.33%;
+  
+}
+
+.col-4{
+  float:left;
+  width: 31.33%;
+}
+
+.col-5 {
+  float: left;
+  width: 31.33%
+  
+}
+
+.clearfix:after{
+  content:"";
+  display: block;
+  clear:both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+  
+}
+
+[class*="col-"] {
+  margin-left: 1%;
+}
+
+.first {
+  margin-left: 0;
+}
+
+.column1{
+  float: left;
+  width: 31.33%;
+  
+}
+
+.column2{
+  float: left;
+  width: 31.33%;
+  
+}
+
+
+
+
+
+
 /********** Footer **********/
 
 footer {
