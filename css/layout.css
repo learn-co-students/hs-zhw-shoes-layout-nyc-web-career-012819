@@ -24,4 +24,24 @@
 
 /* Positioning Classes */
 
-
+section {
+  margin: 1%;
+}
+.col-1 {
+  width: 64%;
+  float: left;
+}
+.col-2 {
+  width: 32%;
+  float: left;
+}
+.col-3 {
+  width: 31.333%;
+  float: left;
+}
+.spacing {
+  padding: 20px;
+}
+#wrapping {
+  box-sizing: border-box;
+}
